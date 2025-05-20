@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="ss" type="submit" onclick="function1();">Click me</button> 
+
+        <div id="aaa">
+        
+        </div>
+
+        <div id="bbb"></div>
+        <div id="ccc"></div>
+        <div id="ddd"></div>
+
+
+        <script>
+            let count = 0
+            let last_fib = 0
+            let fib_sum = 1
+
+            function function1() {
+                count ++
+                console.log("aaa")
+                document.querySelector("#aaa").innerHTML = "YOU DID IT";
+                document.querySelector("#bbb").innerHTML = "Count:"+count;
+                document.querySelector("#ccc").innerHTML = "Fibonacci:"+fib(2,fib_sum,last_fib);
+                document.querySelector("#ddd").innerHTML = "Count down: "+countdown(count);
+
+
+            }
+
+            function countdown(n) {
+                let dec = n+2
+                setTimeout(dec,printMe(dec))
+        
+            }
+            function printMe(n) {
+                document.querySelector("#ddd").innerHTML = n
+
+            }
+
+
+
+            function fib(c, fs,lfs){
+                let ret = fs+lfs
+                 fs = lfs
+                 lfs = ret
+                while (c < count+1) {
+                    ret = fs+lfs
+                 fs = lfs
+                 lfs = ret
+                
+                 c++;
+                }
+                 return ret
+            }
+            </script>
+
+
+
+    </body>
+</html>
+
