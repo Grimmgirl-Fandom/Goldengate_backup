@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id = "start">
+        <button id="ss" type="submit" onclick="function1();">Click me</button> 
+        </div>
+
+
+        <div id = "yay">
+        </div>
+
+        <div id="again" hidden>
+            <button id="aa" type="submit" onclick="function3();">Do it again</button> 
+        </div>
+        <div id = "yay2">
+       </div>
+
+        <script>
+           
+
+            function function1() {
+            document.querySelector("#yay").innerHTML = "YOU DID IT";
+            document.querySelector("#again").removeAttribute("hidden");
+            document.querySelector("#start").setAttribute("hidden", "hidden");
+
+
+            }
+
+
+            function function3() {
+            document.querySelector("#yay2").innerHTML = "AGAIN";
+
+            }
+
+          
+            </script>
+
+
+
+    </body>
+</html>
+
