@@ -1,0 +1,43 @@
+//Grace Swenson Hollis
+
+so to be compleatly honest I was confused so I recorded the data here.
+
+Please note that since the alphabetical order is reveresed the positions may be differnt than expected, so sorry.
+
+
+Years included:1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008
+
+name entered: Lily
+
+output:
+Lily
+Appears: 14
+Frequency: 55233
+Spot in list: 979
+
+name entered: Grace
+
+output:
+Grace
+Appears: 14
+Frequency: 129112
+Spot in list: 1734
+
+name entered: Andric
+
+output:
+Andric
+Andric not found
+
+name entered:HILARY
+
+output:
+HILARY
+HILARY not found
+
+name entered:CelenE
+
+output:
+
+CelenE
+CelenE not found
