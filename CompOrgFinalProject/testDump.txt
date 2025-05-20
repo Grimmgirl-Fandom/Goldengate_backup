@@ -1,0 +1,11 @@
+;;int x = a ;
+AND R0, R0, 0
+ADD R0, R0, a
+STR R0, FP, -1
+;;int x = b ;
+AND R0, R0, 0
+ADD R0, R0, b
+STR R0, FP, -1
+;;return x ;
+LDR R0, FP, -1
+STR R0, FP, 3
